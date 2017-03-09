@@ -10,10 +10,12 @@ scalaVersion := "2.11.7"
 
 libraryDependencies ++= Seq( javaJdbc ,  cache , javaWs,
   "io.searchbox" % "jest" % "2.0.3",
-  "org.elasticsearch" % "elasticsearch" % "2.3.5"
+  "org.elasticsearch" % "elasticsearch" % "2.3.5",
+  "org.easytesting" % "fest-assert-core" % "2.0M10",
+  "org.easytesting" % "fest-assert" % "1.4"
 )
 
-unmanagedResourceDirectories in Test <+=  baseDirectory ( _ /"target/web/public/test" )  
+unmanagedResourceDirectories in Test <+=  baseDirectory ( _ /"target/web/public/test" )
 
 resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
 
@@ -50,5 +52,3 @@ dockerEntrypoint in Docker := Seq(
   //"-Dlogger.resource=my-app-logging-conf.xml"
 
 //)
-
-
