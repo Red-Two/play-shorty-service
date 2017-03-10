@@ -7,7 +7,7 @@ jdk:
 deploy:
   provider: s3
   acl: public_read
-  local_dir: $HOME/build/plinde/play-shorty-service/target/universal
+  local_dir: $HOME/build/Red-Two/play-shorty-service/target/universal
   skip_cleanup: true
   access_key_id:
     secure: KkBXcb/xH4wB3cbyPg0BZw5SrR1CmB4Sc3YK+e4aXI+8pDpS7sU5FXSZNARjJkHm3FvR8NGHeUBmh+4JqEtpAEbdAyO8lCuNprQ4L1i0IB9cza5GPRzcWcT1s3bholZiLpAwvF+bKE/AS/pwus086VhZhyPlSpiBMlINpb5UfMJ+oh/w1eQVqBufAeqPBtXjzl1s1/aKlHvsNs561rJLmJvrCV25BHhEalhbo6mKiUfhx9T7h6icNRvjxbFHvPyJur+pL23v8p40zWMiarKKgEJrIwnXyhmPaxI3kWghQozKUzDnBJKGDQ8cfIKSV+/Tj5ppRi9Lx8PcnBf8wb4fyiZRv7jMWwZDy22OOsjrIttENE83jD/d/FouRZxY1YE+PWh9G2JasCEvnqxokS4iubxXdwzEBPfUlTgKyEixPYmw0QjoVYMJLiUEHHFVjJe8VWiV+WJd1XcawT8Ta2QIFgxsEvGNEVev83TA7G60Uz1uSvaysq9S4TG7P52E8PAIu8F5rTFKupO0nrK4ipZ1fl3Nrw4G23r3OyWCevHM8aj9Fbrns54tqQtKbPYI8eEyI9mr+O+sX+6usmeReHO5xVsUaAK9+jrfNIHkyXNeMjLTWyOuJbs4JVLdHriP/yi+N2wdVdR6ZYeIIMg2f5R+5AsYCuTP8bEvt4z6po1h/Us=
