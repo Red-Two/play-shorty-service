@@ -11,6 +11,11 @@ addons:
   paths:
   - /home/travis/build/Red-Two/play-shorty-service/target/universal/play-shorty-service-1.0.zip
 
+deploy:
+  provider: s3
+  skip_cleanup: true
+  local_dir: /target/universal/
+
 cache:
   directories:
   - $HOME/.ivy2
