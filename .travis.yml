@@ -8,10 +8,8 @@ addons:
   artifacts: true
   s3_region: "us-east-1" # defaults to "us-east-1"
   debug: true
-  upload-dir: /home/travis/build/Red-Two/play-shorty-service/target/universal
-  local-dir: /home/travis/build/Red-Two/play-shorty-service/target/universal/
-  # paths:
-  # - /home/travis/build/Red-Two/play-shorty-service/target/universal/play-shorty-service-1.0.zip
+  paths:
+  - /home/travis/build/Red-Two/play-shorty-service/target/universal/play-shorty-service-1.0.zip
 
 cache:
   directories:
