@@ -1,7 +1,9 @@
 language: scala
 scala:
    - 2.10.0
-script: sbt dist
+script:
+ - sbt test
+ - sbt dist
 jdk:
   - oraclejdk8
 addons:
