@@ -16,5 +16,5 @@ docker push plinde/play-shorty-service
 ```
 docker run -p 9000:9000 plinde/play-shorty-service -DELASTICSEARCH_PROTO="http" -DELASTICSEARCH_HOST="192.168.1.71" -DELASTICSEARCH_PORT="9200"  -DELASTICSEARCH_USER="elastic" -DELASTICSEARCH_PASS="changeme"
 ```
-
+  
 * https://hub.docker.com/r/plinde/play-shorty-service/
